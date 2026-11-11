@@ -153,3 +153,4 @@ feature/f7-mine             我的页面
 |---|---|
 | 2026-11-11 | 创建项目基础工程，上传 GitHub；移除误提交的 .idea 配置 |
 | 2026-11-11 | 包名改为 `com.musu.yixiaoke`；补回重构时丢失的 Java 源码与测试文件；.gitignore 忽略 `.idea/` 与打包产物；加入 README 与设计文档骨架；`assembleDebug` 编译通过 |
+| 2026-11-11 | 首页骨架：国风暖色主题、分类筛选、卡片列表与点击事件；接入 RecyclerView；模拟器实测截图存入 `docs/screenshots/` |

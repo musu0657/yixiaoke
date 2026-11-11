@@ -1,3 +1,22 @@
 <resources>
     <string name="app_name">遗小课</string>
+    <string name="app_slogan">学一项非遗，上一堂小课</string>
+
+    <!-- 首页分类 -->
+    <string name="category_all">全部</string>
+    <string name="category_craft">传统技艺</string>
+    <string name="category_fine_art">传统美术</string>
+    <string name="category_drama">传统戏剧</string>
+    <string name="category_folk">民俗</string>
+
+    <!-- 列表 -->
+    <string name="empty_projects">这个分类下还没有项目</string>
+    <string name="difficulty_format">难度 · %1$s</string>
+    <string name="toast_detail_todo">《%1$s》详情页开发中（S5a 实现）</string>
+
+    <string-array name="difficulty_labels">
+        <item>入门</item>
+        <item>进阶</item>
+        <item>挑战</item>
+    </string-array>
 </resources>

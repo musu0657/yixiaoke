@@ -126,7 +126,10 @@ feature/f7-mine             我的页面
 
 | 成员 | 学号 | 负责内容 | 可交付物 | Git 提交 |
 |---|---|---|---|---|
-| （待填） | | | | |
+| 万维唯 | 2406100225 | 组长 · 主力开发/架构：架构设计、数据库与 DAO、内容浏览与测评核心代码、构建与 Git 管理 | `DBHelper`、三个 DAO、`MainActivity`/`DetailActivity`/`QuizActivity`、设计文档 | `feature/f1-home-list`、`f2-detail`、`f3-quiz` |
+| 袁浩翔 | 2406100227 | 调研与内容：竞品分析、非遗资料采集与改写、8–12 个项目条目、调研报告 | `docs/调研报告.md`、`assets/projects.json` 内容、附录 A/B | `feature/content-data` |
+| 张梓钧 | 2406100229 | 外围页面与视觉："我的"页面、打卡页界面、图标与配色资源、空态与加载态 | `MineActivity`、`CheckinActivity`、`res/drawable`、`res/values/colors.xml` | `feature/f7-mine`、`f6-checkin` |
+| 赵元新 | 2406100231 | 测试与答辩材料：测试用例设计、真机测试执行与缺陷记录、PPT 与演示脚本 | `docs/测试报告.md`、缺陷清单、答辩 PPT | `fix/*` 缺陷修复提交、`docs/ppt` |
 
 ## 九、阶段计划与留痕
 
@@ -150,3 +153,4 @@ feature/f7-mine             我的页面
 |---|---|
 | 2026-11-11 | 创建项目基础工程，上传 GitHub；移除误提交的 .idea 配置 |
 | 2026-11-11 | 包名改为 `com.musu.yixiaoke`；补回重构时丢失的 Java 源码与测试文件；.gitignore 忽略 `.idea/` 与打包产物；加入 README 与设计文档骨架；`assembleDebug` 编译通过 |
+| 2026-11-11 | 首页骨架：国风暖色主题、分类筛选、卡片列表与点击事件；接入 RecyclerView；模拟器实测截图存入 `docs/screenshots/` |

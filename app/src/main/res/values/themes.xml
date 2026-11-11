@@ -1,9 +1,27 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- 主题锁定 Light：避免系统深色模式毁掉国风暖色配色（见技术决策 8） -->
     <style name="Base.Theme.Yixiaoke" parent="Theme.Material3.Light.NoActionBar">
-        <!-- 自定义浅色主题配色写在这里 -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/yx_red</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/yx_gold</item>
+        <item name="android:colorBackground">@color/yx_paper</item>
+        <item name="android:windowBackground">@color/yx_paper</item>
     </style>
 
     <style name="Theme.Yixiaoke" parent="Base.Theme.Yixiaoke" />
+
+    <!-- 首页分类筛选标签（选中态由 bg_chip / chip_text 选择器驱动）
+         注意：style 名不要带点，AAPT 会把 "Yx.Chip" 的 "Yx" 当成父样式去找，导致链接失败 -->
+    <style name="YxChip">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginEnd">8dp</item>
+        <item name="android:background">@drawable/bg_chip</item>
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingEnd">16dp</item>
+        <item name="android:paddingTop">7dp</item>
+        <item name="android:paddingBottom">7dp</item>
+        <item name="android:textColor">@color/chip_text</item>
+        <item name="android:textSize">13sp</item>
+    </style>
 </resources>

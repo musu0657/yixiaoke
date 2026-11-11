@@ -2,4 +2,15 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!-- 国风暖色配色：宣纸底 + 朱红主色 + 金/赭辅助色 -->
+    <color name="yx_paper">#FDF8F0</color>
+    <color name="yx_card">#FFFFFF</color>
+    <color name="yx_ink">#2B2118</color>
+    <color name="yx_ink_light">#6B5D4F</color>
+    <color name="yx_red">#A63B32</color>
+    <color name="yx_red_dark">#8C2F27</color>
+    <color name="yx_gold">#C9A463</color>
+    <color name="yx_chip_bg">#F2E8DA</color>
+    <color name="yx_slogan">#EFD8CE</color>
 </resources>

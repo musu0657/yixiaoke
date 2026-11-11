@@ -3,13 +3,13 @@ plugins {
 }
 
 android {
-    namespace = "com.example.yixiaoke"
+    namespace = "com.musu.yixiaoke"
     compileSdk {
         version = release(37)
     }
 
     defaultConfig {
-        applicationId = "com.example.yixiaoke"
+        applicationId = "com.musu.yixiaoke"
         minSdk = 24
         targetSdk = 37
         versionCode = 1

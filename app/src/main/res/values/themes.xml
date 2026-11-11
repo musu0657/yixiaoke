@@ -1,7 +1,7 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.Yixiaoke" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
+    <!-- 主题锁定 Light：避免系统深色模式毁掉国风暖色配色（见技术决策 8） -->
+    <style name="Base.Theme.Yixiaoke" parent="Theme.Material3.Light.NoActionBar">
+        <!-- 自定义浅色主题配色写在这里 -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
 

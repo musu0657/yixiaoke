@@ -12,3 +12,5 @@ local.properties
 *.apk
 *.aab
 *.hprof
+# 本地临时脚本目录（生成 Word 用，不入库）
+/.tmp/

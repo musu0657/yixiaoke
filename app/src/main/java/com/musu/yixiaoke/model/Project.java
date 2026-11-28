@@ -15,6 +15,8 @@ public class Project {
     public static final String CATEGORY_DRAMA = "传统戏剧";
     public static final String CATEGORY_FOLK = "民俗";
 
+    /*priject表自增id*/
+    private final int id;
     private final String name;
     private final String category;
     private final String region;
@@ -22,7 +24,8 @@ public class Project {
     private final int difficulty;
     private final String summary;
 
-    public Project(String name, String category, String region, int difficulty, String summary) {
+    public Project(int id, String name, String category, String region, int difficulty, String summary) {
+        this.id = id;
         this.name = name;
         this.category = category;
         this.region = region;
@@ -30,10 +33,16 @@ public class Project {
         this.summary = summary;
     }
 
+    public int getId(){ return id; }
     public String getName() {
         return name;
     }
 
+    /* 难度下标*/
+    public int getDifficultyIndex(){
+        int index = difficulty - 1;
+        return(index < 0 || index > 2) ? 0 : index;
+    }
     public String getCategory() {
         return category;
     }

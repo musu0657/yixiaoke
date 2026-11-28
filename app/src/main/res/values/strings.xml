@@ -12,7 +12,12 @@
     <!-- 列表 -->
     <string name="empty_projects">这个分类下还没有项目</string>
     <string name="difficulty_format">难度 · %1$s</string>
-    <string name="toast_detail_todo">《%1$s》详情页开发中（S5a 实现）</string>
+
+    <!-- 详情页 -->
+    <string name="detail_back">‹ 返回</string>
+    <string name="detail_meta_format">%1$s · %2$s · 难度 %3$s</string>
+    <string name="detail_section_intro">项目简介</string>
+    <string name="detail_pending">历史渊源、工序步骤、传承人故事将在 S5b 接入内容数据后展示。</string>
 
     <string-array name="difficulty_labels">
         <item>入门</item>

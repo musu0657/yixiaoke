@@ -24,6 +24,8 @@ public final class SampleData {
                 "示例：灯影之下，一张驴皮演千军万马"));
         PROJECTS.add(new Project(8, "二十四节气", Project.CATEGORY_FOLK, "全国", 1,
                 "示例：顺天应时的农耕时间表，至今仍在用"));
+        PROJECTS.add(new Project(9, "祭灶", Project.CATEGORY_FOLK, "全国", 1,
+                "示例：腊月廿三送灶王，糖瓜粘嘴多讲好话"));
     }
     //私有化构造函数，禁止外部new实例化
     private SampleData() {
